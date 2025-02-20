@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "@ant-design/v5-patch-for-react-19"; // Import Ant Design CSS - compatibility package for React 19
+import "antd/dist/reset.css"; // Import Ant Design CSS
+import { ConfigProvider } from "antd";
 
 export const metadata: Metadata = {
   title:
@@ -15,7 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={``}>{children}</body>
+      <body className={``}>
+        <ConfigProvider theme={{ token: { colorPrimary: "#1890ff" } }}>
+          {children}
+        </ConfigProvider>
+      </body>
     </html>
   );
 }
