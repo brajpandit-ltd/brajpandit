@@ -11,7 +11,9 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
+    "@heroui/react": "^2.7.2",
     "@repo/ui": "*",
+    "framer-motion": "^12.4.7",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
