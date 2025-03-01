@@ -1,3 +1,91 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.nvbr1 {
+    display: flex;
+    justify-content: center;
+     background-color: white; 
+}
+
+
+.nvbr1 {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn {
+    background-color: #ff0;
+    color: #000;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    /* font-size: 18px;
+    font-weight: bold; */
+    cursor: pointer;
+    transition: all .3sease-in-out;
+    width: 150px;
+}
+
+.nav-btn:hover {
+    background-color: gold;
+}
+
+.nvbr2 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 10px 20px;
+}
+.nvbr {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ================== */
+
+.mdhdrs{
+    background-color: #f0f2f2;
+}
+
+input[type="text"] {
+    background: white;
+    padding: 10px 10px;
+    width: 370px;
+}
+
+#lgtb {
+    background: #ff0;
+    color: #000;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.bthf1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bthf2{
+    padding: 0px 10px;
+}
+
+.hbpsb {
+    background: yellow;
+    color: black;
+    padding: 10px 10px;
+    margin: 0px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mthh {
+    color: black;
+}
+
+.mthere{
+    color: black;
+}
+
+.mther {
+    color: black;
+}
