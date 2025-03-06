@@ -1,14 +1,20 @@
-import logo from "../Assets/logo.jpeg";
+import Image from "next/image";
 import "../styles.css";
+
 
 export default function Navbar() {
   return (
     <>
       <div className="mhdrs">
         <div className="mdhdrs">
-          <div className="py-4 px-6 flex items-center justify-between">
+          <div id="nav" className="py-4 px-6 flex items-center justify-between">
             <div className="flex items-center">
-              <img src={logo} alt="Logo" className="h-12" />
+            <Image
+                 src= "/assets/logo.png"
+                width={110}
+                height={10}
+                alt="Picture of the author"
+              />
             </div>
             <div className="srch">
               <input type="text" placeholder="Search for pooja" />

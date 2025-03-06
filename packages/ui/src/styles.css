@@ -6,7 +6,7 @@
 .nvbr1 {
     display: flex;
     justify-content: center;
-     background-color: white; 
+     background-color: #ffffff; 
 }
 
 
@@ -16,32 +16,34 @@
 }
 
 .nav-btn {
-    background-color: #ff0;
-    color: #000;
+    background-color: #ab212d;
+    color: #ffffff;
     border: none;
     padding: 12px 24px;
-    border-radius: 10px;
-    /* font-size: 18px;
-    font-weight: bold; */
+    border-radius: 30px;
     cursor: pointer;
-    transition: all .3sease-in-out;
+    transition: all .3sease -in-out;
     width: 150px;
 }
 
 .nav-btn:hover {
-    background-color: gold;
+    /* background-color: gold; */
 }
 
 .nvbr2 {
     max-width: 1440px;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 80px;
 }
 .nvbr {
     display: flex;
     justify-content: space-between;
 }
 
+#nav{
+    padding: 0px 80px;
+    background: #e0e0e0;
+}
 /* ================== */
 
 .mdhdrs{
@@ -55,11 +57,11 @@ input[type="text"] {
 }
 
 #lgtb {
-    background: #ff0;
-    color: #000;
+    background: #ffffff;
+    color: #ab212d;
     cursor: pointer;
     padding: 10px 40px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .bthf1 {
@@ -88,4 +90,22 @@ input[type="text"] {
 
 .mther {
     color: black;
+}
+
+
+/* ================== */
+.mcf {
+    background: #ffffff;
+    color: black;
+}
+
+.mcf1{
+padding: 30px 80px;
+
+}
+
+.mcf2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
