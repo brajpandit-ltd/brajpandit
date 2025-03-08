@@ -1,3 +1,111 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.nvbr1 {
+    display: flex;
+    justify-content: center;
+     background-color: #ffffff; 
+}
+
+
+.nvbr1 {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn {
+    background-color: #ab212d;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3sease -in-out;
+    width: 150px;
+}
+
+.nav-btn:hover {
+    /* background-color: gold; */
+}
+
+.nvbr2 {
+    max-width: 1440px;
+    width: 100%;
+    padding: 10px 80px;
+}
+.nvbr {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav{
+    padding: 0px 80px;
+    background: #e0e0e0;
+}
+/* ================== */
+
+.mdhdrs{
+    background-color: #f0f2f2;
+}
+
+input[type="text"] {
+    background: white;
+    padding: 10px 10px;
+    width: 370px;
+}
+
+#lgtb {
+    background: #ffffff;
+    color: #ab212d;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+.bthf1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bthf2{
+    padding: 0px 10px;
+}
+
+.hbpsb {
+    background: yellow;
+    color: black;
+    padding: 10px 10px;
+    margin: 0px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.mthh {
+    color: black;
+}
+
+.mthere{
+    color: black;
+}
+
+.mther {
+    color: black;
+}
+
+
+/* ================== */
+.mcf {
+    background: #ffffff;
+    color: black;
+}
+
+.mcf1{
+padding: 30px 80px;
+
+}
+
+.mcf2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
