@@ -7,4 +7,4 @@ export { default as Footer } from "./components/Footer";
 export { default as Header } from "./components/Header";
 
 // Providers
-export { default as HeroUiProviders } from "./HeroUiProvider";
+export { default as HeroUiProviders } from "./providers/HeroUiProvider";
