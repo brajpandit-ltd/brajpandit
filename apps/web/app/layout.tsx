@@ -3,7 +3,7 @@ import "@repo/ui/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
-import { Footer, Header, HeroUiProviders } from "@repo/ui";
+import { Footer, Header, Navbar, HeroUiProviders } from "@repo/ui";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} dark text-foreground bg-background`}>
         <HeroUiProviders>
-          <Header />
+          <Navbar />
           {children}
           <Footer />
         </HeroUiProviders>
