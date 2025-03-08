@@ -18,6 +18,6 @@ const config: Omit<Config, "content"> = {
       },
     }),
   ],
-  darkMode: "class",
+  // darkMode: "class",
 };
 export default config;

@@ -9,7 +9,6 @@
      background-color: #ffffff; 
 }
 
-
 .nvbr1 {
     display: flex;
     gap: 20px;
@@ -109,3 +108,312 @@ padding: 30px 80px;
     justify-content: center;
     align-items: center;
 }
+
+/* ==================== Home Page Styles ==================== */
+.mhdrsH {
+    background-color: #fff;
+    color: black;
+    background-image: url('/assets/slider.jpg');
+    padding: 60px 80px;
+    background-size: cover;
+
+}
+
+/* .mdhdrsH {
+    background-color: #fff;
+    color: black;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd1ItbLR9_1kVT-hdH_4HAcEb_E8eHVBAJWQ&s);
+    padding: 10px 20px;
+} */
+
+.mthhH {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.mtherH {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 20px 100px 25px 0px;
+}
+
+.mthereH {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 50px;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #ab212d;
+    border-radius: 30px;
+}
+
+.mddresh {
+    background-color: #fff;
+    color: black;
+    padding: 30px 80px;
+}
+
+.mdlresd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dtxt {
+    font-size: 45px;
+    font-weight: 500;
+    color: #000;
+}
+
+.dtxt span {
+    color: #ff4a4a;
+}
+
+.dtcst,
+.mdtxtsd,
+.mdthd {
+    padding: 10px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.6;
+}
+
+.mdtbotn {
+    border: 1px solid;
+    padding: 10px 50px;
+    background: #ad333d;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 10px;
+    border-radius: 30px;
+}
+
+.mdtbotn1 {
+    border: 1px solid;
+    padding: 10px 50px;
+    background: #ad333d;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 10px;
+    border-radius: 30px;
+}
+
+.mdtbtn {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mdlresd {
+    max-width: 1350px;
+    width: 100%;
+}
+.txt-ctnt {
+    max-width: 750px;
+    width: 100%;
+}
+.img-ctnt {
+    max-width: 500px;
+    width: 100%;
+}
+
+.puja-carousel {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .puja-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .puja-header h2 {
+    font-size: 2rem;
+  }
+  
+  .puja-header p {
+    flex: 1;
+    margin-left: 20px;
+    color: #555;
+  }
+  
+  .see-all {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .puja-swiper {
+    width: 100%;
+  }
+  
+  .puja-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .puja-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .puja-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .puja-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .mdfom {
+    background-image: url('/assets/backg.png');
+    color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+ 
+.mdfom::before{
+  content:"";
+  background: linear-gradient(110deg, rgba(255, 255, 255, 0.9) 35%, rgba(255, 255, 255, 0.6) 100%);
+  opacity: 0.94;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+}
+.info-fi {
+  max-width: 750px;
+  width: 100%;
+  padding: 0px 60px 0px 0px;
+}
+.form-con{
+  max-width: 600px;
+  width: 100%;
+}
+
+.mdfomd{
+padding: 30px 80px;
+}
+
+.mdfomh{
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1350px;
+width: 100%;
+}
+
+.step-m{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+#h {
+  padding: 0px 0px 40px 0px;
+  font-size: 34px;
+  font-weight: 500;
+}
+.circle {
+  width: 35px;
+  height: 35px;
+  background-color: #6e1010;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.st-des {
+    padding: 10px 0px 0px 0px;
+}
+
+h3#rx {
+  padding: 5px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.step {
+  padding: 20px 0px;
+}
+
+
+
+label {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+.form-con {
+  padding: 0px 10px;
+}
+
+input#name, input#mobile, input#date, input#service, textarea#message {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.frm-cnn{
+  background-color: #6e1010;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.fm-n, .fm-M , .fm-D , .fm-C, .fm-T  {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 10px 20px;
+}
+
+.btnnn button{
+    padding: 10px;
+    background-color: white;
+    color: #6e1010;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.btnnn {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px 10px 10px;
+}
+

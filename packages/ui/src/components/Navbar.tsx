@@ -1,6 +1,5 @@
 import Image from "next/image";
-import "../styles.css";
-
+import Button from "../common-ui/Button";
 
 export default function Navbar() {
   return (
@@ -9,8 +8,8 @@ export default function Navbar() {
         <div className="mdhdrs">
           <div id="nav" className="py-4 px-6 flex items-center justify-between">
             <div className="flex items-center">
-            <Image
-                 src= "/assets/logo.png"
+              <Image
+                src="/assets/logo.png"
                 width={110}
                 height={10}
                 alt="Picture of the author"
@@ -22,10 +21,10 @@ export default function Navbar() {
             <div className="bthf">
               <div className="bthf1">
                 <div className="bthf2">
-                  <button id="lgtb">LOGIN</button>
+                  <Button text="LOGIN" id="lgtb" />
                 </div>
                 <div className="bthf2">
-                  <button id="lgtb">RFGISTER</button>
+                  <Button text="RFGISTER" id="lgtb" />
                 </div>
               </div>
             </div>
@@ -35,12 +34,11 @@ export default function Navbar() {
           <div className="nvbr1">
             <div className="nvbr2">
               <div className="nvbr">
-                <button className="nav-btn">Home</button>
-                <button className="nav-btn">About</button>
-                <button className="nav-btn">Puja</button>
-                <button className="nav-btn">Blogs</button>
-                <button className="nav-btn">Shop</button>
-                <button className="nav-btn">Book Now</button>
+                {["Home", "About", "Puja", "Blogs", "Shop", "Book Now"].map(
+                  (item, index) => (
+                    <Button key={index} text={item} className="nav-btn" />
+                  )
+                )}
               </div>
             </div>
           </div>
