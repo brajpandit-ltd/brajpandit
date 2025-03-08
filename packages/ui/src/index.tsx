@@ -8,4 +8,4 @@ export { default as Header } from "./components/Header";
 export { default as Navbar } from "./components/Navbar";
 export { default as Home} from "./components/Pages/Home"
 // Providers
-export { default as HeroUiProviders } from "./HeroUiProvider";
+export { default as HeroUiProviders } from "./providers/HeroUiProvider";
