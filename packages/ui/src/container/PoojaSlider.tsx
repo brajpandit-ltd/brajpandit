@@ -20,6 +20,25 @@ const PoojaSlider = () => {
         "Ramayan Path is the image of the God of God and that is why it is worshiped in reverence. By its recitation and.",
       image: "/assets/w2.jpg",
     },
+    {
+      title: "Office Opening Puja",
+      description:
+        "Ramayan Path is the image of the God of God and that is why it is worshiped in reverence. By its recitation and.",
+      image: "/assets/w2.jpg",
+    },
+    {
+      title: "Office Opening Puja",
+      description:
+        "Ramayan Path is the image of the God of God and that is why it is worshiped in reverence. By its recitation and.",
+      image: "/assets/w2.jpg",
+    },
+    {
+      title: "Office Opening Puja",
+      description:
+        "Ramayan Path is the image of the God of God and that is why it is worshiped in reverence. By its recitation and.",
+      image: "/assets/w2.jpg",
+    },
+    
   ];
 
   return (
@@ -27,11 +46,13 @@ const PoojaSlider = () => {
       <div className="mdpjss">
         <div className="puja-carousel">
           <div className="puja-header">
-            <h2>Popular Pujas</h2>
-            <p>
+            <div className="poojsh">
+            <h2 className="poojaPp">Popular Pujas</h2>
+            <p className="poojapp">
               Bring divine blessings to your celebrations with special event
               pujas.
             </p>
+            </div>
             <button className="see-all">See All »»</button>
           </div>
 

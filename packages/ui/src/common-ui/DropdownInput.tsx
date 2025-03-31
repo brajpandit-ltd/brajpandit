@@ -17,6 +17,7 @@ const DropdownInput = ({
 }: DropdownInputProps) => {
   return (
     <div className="fm-D">
+      <label htmlFor={name}>{label}</label>
       <Select
         label={label}
         value={value}

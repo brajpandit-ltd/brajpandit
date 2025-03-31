@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { Button, ContactSection, PoojaSlider } from "@repo/ui";
+import { Button, ContactSection, PoojaSlider, Panditslider } from "@repo/ui";
 
 export default function Page() {
   return (
     <main>
-      {/* <!-- --------------------- --> */}
+      {/* <!-- ---------Hero section as carousel------------ --> */}
       <div className="mhdrsH">
         <div className="mdhdrsH">
           <div className="mthdrsH">
@@ -20,7 +20,7 @@ export default function Page() {
         </div>
       </div>
 
-      {/* ------------------------------------------- */}
+      {/* -----------------Book Panditji For Puja-------------------------- */}
       <div className="mddresh">
         <div className="mdlresd">
           <div className="txt-ctnt">
@@ -71,8 +71,11 @@ export default function Page() {
         </div>
       </div>
 
-      {/* ------------------------------------------- */}
+      {/* -----------------PoojaSlider-------------------------- */}
       <PoojaSlider />
+
+       {/* -----------------PoojaSlider-------------------------- */}
+       <Panditslider />
 
       {/* ------------------- Form scetion ---------------------- */}
       <div className="mdfom">
@@ -128,6 +131,47 @@ export default function Page() {
 
             <div className="form-con w-full">
               <ContactSection />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* -----------------------Who are you-------------------------- */}
+      <div className="mdfom">
+        <div className="mdfomd">
+          <div className="mdfomh">
+            <div className="info-who">
+              <h2 id="who">Who Are You?</h2>
+              <div className="panditImg">
+                <Image
+                className="panditImg"
+                  src={"/assets/worship.gif"}
+                  width={500}
+                  height={500}
+                  alt="comming"
+                />
+              </div>
+            </div>
+            <div className="about-pandit">
+              <h2 id="hp">Book a Pandit Now & Experience True Spirituality!</h2>
+              <div className="head-pandit">
+                Welcome to Braj Pandit, your trusted platform for booking
+                experienced and knowledgeable Pandits for all types of Hindu
+                rituals and ceremonies. Rooted in the divine land of
+                Mathura-Vrindavan, we are committed to preserving and promoting
+                the rich traditions of Sanatan Dharma. With a team of highly
+                qualified Vedic scholars, we provide authentic and personalized
+                services for pujas, havans, weddings, and other spiritual
+                events. Whether you need an online consultation or an in-person
+                ceremony, we ensure that every ritual is performed with utmost
+                devotion and accuracy. At Braj Pandit, our mission is to make
+                Vedic services easily accessible while upholding the sacred
+                traditions of our ancestors. Let us help you connect with
+                spirituality and bring divine blessings into your
+              </div>
+              <div>
+                <Button text="Book Now" className="mdtbotn" />
+              </div>
             </div>
           </div>
         </div>

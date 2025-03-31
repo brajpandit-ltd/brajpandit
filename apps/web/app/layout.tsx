@@ -2,8 +2,12 @@ import "./globals.css";
 import "@repo/ui/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import dynamic from "next/dynamic";
 
 import { Footer, Navbar, HeroUiProviders } from "@repo/ui";
+// Dynamically import Navbar
+// const Navbar = dynamic(() => import("@repo/ui").then((mod) => mod.Navbar), { ssr: false });
+// const Navbar = dynamic(() => import("./Navbar"), { ssr: false });
 
 const inter = Inter({ subsets: ["latin"] });
 

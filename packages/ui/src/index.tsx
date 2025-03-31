@@ -12,4 +12,5 @@ export { default as HeroUiProviders } from "./providers/HeroUiProvider";
 
 // Container
 export { default as PoojaSlider } from "./container/PoojaSlider";
+export { default as Panditslider } from "./container/PanditSlider";
 export { default as ContactSection } from "./container/ContactSection";
