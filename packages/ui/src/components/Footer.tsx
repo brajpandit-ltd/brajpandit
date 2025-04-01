@@ -1,5 +1,7 @@
 import Image from "next/image";
 import "../styles.css";
+import Link from 'next/link'
+
 
 const Footer = () => {
   return (
@@ -9,18 +11,20 @@ const Footer = () => {
           <div className="mcf2">
             <div className="about-section">
               <Image
-                src="/assets/logo.png"
+                className="logo"
+                src="/assets/Brajlog.png"
                 alt="Panditjee Online"
                 width={110}
                 height={110}
+                id="footer-logo"
               />
-              <p>"Book Qualified Pandit Anytime Anywhere"</p>
-              <p>
+              <p id="book-heading">"Book Qualified Pandit Anytime Anywhere"</p>
+              <p className="book-para">
                 Panditjee Online is the most trusted platform for availing Vedic
                 and Hindu Puja Services like performing Vedic Rituals, Religious
                 Ceremonies, Vastu Yagya, and many more.
               </p>
-              <h3>Stay In Touch With Us:</h3>
+              <p className="book-sta">Stay In Touch With Us:</p>
               <div className="social-icons">
                 {/* <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
                     <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
@@ -30,72 +34,72 @@ const Footer = () => {
             </div>
 
             <div className="quick-links">
-              <h3>Quick Links</h3>
+              <h2 className="Q_C_P">Quick Links</h2>
               <ul>
-                <li>
-                  <a href="#">About Us</a>
+                <li id="li">
+                  <Link href="/">About Us </Link>
                 </li>
-                <li>
-                  <a href="#">Marriage Ceremony</a>
+                <li id="li">
+                  <Link href="/"> Marriage Ceremony</Link>
                 </li>
-                <li>
-                  <a href="#">Gallery</a>
+                <li id="li">
+                <Link href="/"> Gallery</Link>
                 </li>
-                <li>
-                  <a href="#">Videos</a>
+                <li id="li">
+                <Link href="/"> Videos</Link>
                 </li>
-                <li>
-                  <a href="#">Blogs</a>
+                <li id="li">
+                <Link href="/"> Blogs</Link>
                 </li>
-                <li>
-                  <a href="#">Contact Us</a>
+                <li id="li">
+                <Link href="/"> Contact Us</Link>
                 </li>
-                <li>
-                  <a href="#">Be a Pandit</a>
+                <li id="li">
+                <Link href="/"> Be a Pandit</Link>
                 </li>
               </ul>
             </div>
 
             <div className="puja-services">
-              <h3>Puja Services</h3>
+              <h2 className="Q_C_P">Puja Services</h2>
               <ul>
-                <li>
+                <li id="li">
                   <a href="#">Puran Katha</a>
                 </li>
-                <li>
+                <li id="li">
                   <a href="#">Shanti Puja</a>
                 </li>
-                <li>
+                <li id="li">
                   <a href="#">Havan / Yagna</a>
                 </li>
-                <li>
+                <li id="li">
                   <a href="#">Sanskar Vidhi</a>
                 </li>
-                <li>
+                <li id="li">
                   <a href="#">Sthapan Puja</a>
                 </li>
-                <li>
+                <li id="li">
                   <a href="#">Festival Puja</a>
                 </li>
-                <li>
+                <li id="li">
                   <a href="#">All Puja Services</a>
                 </li>
-              </ul>
+              </ul> 
             </div>
 
             <div className="contact-us">
-              <h3>Contact Us</h3>
-              <p>
+              <h2 className="Q_C_P">Contact Us</h2>
+              <p className="footer-contact">
                 <strong>Address:</strong> Braj Pandit, Mathura, Uttar Pradesh,
                 India
               </p>
-              <p>
+              <p className="footer-contact">
                 <strong>Email Address:</strong>{" "}
                 <a href="mailto:info@panditjeeonline.in">
                   info@panditjeeonline.in
                 </a>
               </p>
-              <p>
+              <p className="footer-contact">
                 <strong>Phone Number:</strong>{" "}
                 <a href="tel:+919662001600">+91 96620 01600</a>
               </p>

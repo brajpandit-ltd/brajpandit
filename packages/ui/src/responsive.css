@@ -1,0 +1,51 @@
+/* <---------- Navbar responsive--------------> */
+@media (min-width:1024px) {
+    #logo1{
+     display: none;   
+    }
+}
+@media (max-width:1024px) {
+    .nvbr {
+        display: none !important;
+    }
+
+    #nav {
+        display: none !important;
+    }
+
+    .srch {
+        background-color: yellow !important;
+    }
+
+    .leftIcon {
+        display: flex;
+        width: 50px;
+        height: 45px;
+    }
+
+    .rightIcon {
+        display: flex;
+        width: 50px;
+        height: 45px;
+    }
+
+    .leftright {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 50px;
+    }
+}
+
+.lefttMenu {
+    /* color: #161212; */
+    background: red;
+    position: absolute;
+    display: block;
+    left: 574px;
+}
+
+.rightMenu {
+    position: absolute;
+    background: red;
+    width: 385px;
+}
